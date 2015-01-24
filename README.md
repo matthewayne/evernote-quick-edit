@@ -1,5 +1,5 @@
 # Evernote Quick Edit
-A tool that edits the ENML contents of a Evernote note.
+A command line tool that edits the ENML contents of a Evernote note.
 
 dependencies: evernote (install via "pip install evernote")
 
