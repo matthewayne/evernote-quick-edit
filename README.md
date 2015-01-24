@@ -1,14 +1,13 @@
 # Evernote Tools
 A selection of tools that aid in the development of applications with an Evernote integration.
 
-Generate Access Token
-=====================
+### Generate Access Token
 A command line tool that generates a access token from a OAuth key and secret.
 
 dependencies: evernote (install via "pip install evernote")
 
 Usage:
-<code>
+```bash
 $ python generate_access_token.py
 Please enter your consumer key: [insert API key here]
 Please enter your consumer secret: [insert API secret here]
@@ -22,16 +21,16 @@ S=s432:U=489be66:E=152710fe5c9:C=14b195eb888:P=185:A=newkey:V=2:B=1203276a-214e-
 
 
 $
-</code>
+```
 
 If you don't have an Evernote API key go to https://dev.evernote.com/#apikey
 
-Evernote Quick Edit
+### Evernote Quick Edit
 A command line tool that edits the ENML contents of a Evernote note.
 
 dependencies: evernote (install via "pip install evernote")
 
 usage:
-<code>
+```bash
 $ python evernote-quick-edit.py
-</code>
+```
