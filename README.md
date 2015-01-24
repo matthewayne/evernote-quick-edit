@@ -32,5 +32,37 @@ dependencies: evernote (install via "pip install evernote")
 
 usage:
 ```bash
-$ python evernote-quick-edit.py
+$ python quick-edit.py
+This program selects notes and then donwloads the ENML for you to edit.
+After editing you can then update the note via this tool as well
+
+Select (1) for sandbox or (2) for production:1
+Select (1) for dev token or (2) for OAuth:1
+developer token:S=s1:U=8fa39:E=1516a178f19:C=15b136662a0:P=1cd:A=en-devtoken:V=2:H=4db60901ef59fc1dea800f97c7cb798d
+Select (1) for user's notebooks or (2) for linked notebooks:1
+0:Giphy
+1:newkey
+2:THE Notebook
+3:TestApp
+select notebook number to edit:3
+0:This is a test note!
+1:Hello Developer Forums!!!
+2:How are you doin'?
+select note number to edit:0
+enml saved at . . .
+
+/path/to/current/directory/This is a test note!.enml
+
+ Please edit the file and return here when you are done.
+
+are you done?  y/n: y
+uploading edit to evernote . . .
+DONE
+Select . . .
+(1) to edit another note witht the same auth
+(2) to start over with new auth
+(3) to quit
+ enter a number: 3
+exiting . . .
+$
 ```
