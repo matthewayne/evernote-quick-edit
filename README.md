@@ -31,7 +31,7 @@ A command line tool that edits the ENML contents of a Evernote note.
 dependencies: evernote (install via "pip install evernote")
 
 usage:
-```bash
+```
 $ python quick-edit.py
 This program selects notes and then donwloads the ENML for you to edit.
 After editing you can then update the note via this tool as well
